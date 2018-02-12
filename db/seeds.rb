@@ -6,8 +6,8 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Student.destroy_all
 House.destroy_all
+Student.destroy_all
 
 gryffindor = House.create(name: "Gryffindor", img_url: "http://images1.wikia.nocookie.net/__cb20120922143611/harrypotter/images/7/70/G_final.jpg")
 hufflepuff = House.create(name: "Hufflepuff", img_url: "http://images3.wikia.nocookie.net/__cb20111027164827/harrypotter/images/3/3f/H_final.jpg")
